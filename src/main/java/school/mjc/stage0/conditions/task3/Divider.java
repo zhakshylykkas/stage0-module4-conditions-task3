@@ -4,10 +4,10 @@ public class Divider {
     public void isDividableBy5And11(int number) {
         if (number % 5 == 0 && number % 11 == 0) {
             System.out.println("Dividable");
-        } else if (number % 5 != 0 && number % 11 != 0) {
-            System.out.println("Non-dividable");
-        } else {
+        } else if (number == 0) {
             System.out.println("Cannot divide by zero");
+        } else {
+            System.out.println("Non-dividable");
         }
     }
 }
